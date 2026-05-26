@@ -1,1 +1,265 @@
 
+*{
+  margin:0;
+    padding:0;
+      box-sizing:border-box;
+      }
+
+      body{
+        font-family:'Poppins', sans-serif;
+          background:#f4f4f5;
+            color:#27272a;
+            }
+
+            /* HEADER */
+
+            header{
+              width:100%;
+                padding:20px 8%;
+                  display:flex;
+                    align-items:center;
+                      justify-content:space-between;
+                        background:linear-gradient(90deg,#0284c7,#06b6d4);
+                          color:white;
+                            box-shadow:0 5px 15px rgba(0,0,0,0.1);
+                            }
+
+                            .logo h1{
+                              font-size:32px;
+                                font-weight:700;
+                                }
+
+                                .logo p{
+                                  font-size:14px;
+                                    opacity:0.9;
+                                    }
+
+                                    .btn-topo{
+                                      text-decoration:none;
+                                        background:white;
+                                          color:#0284c7;
+                                            padding:12px 24px;
+                                              border-radius:50px;
+                                                font-weight:600;
+                                                  transition:0.3s;
+                                                  }
+
+                                                  .btn-topo:hover{
+                                                    transform:scale(1.05);
+                                                    }
+
+                                                    /* HERO */
+
+                                                    .hero{
+                                                      background:linear-gradient(90deg,#0284c7,#06b6d4);
+                                                        min-height:80vh;
+                                                          display:flex;
+                                                            align-items:center;
+                                                              justify-content:center;
+                                                                text-align:center;
+                                                                  padding:50px 8%;
+                                                                    color:white;
+                                                                    }
+
+                                                                    .hero-content{
+                                                                      max-width:900px;
+                                                                      }
+
+                                                                      .hero h2{
+                                                                        font-size:65px;
+                                                                          margin-bottom:25px;
+                                                                            font-weight:700;
+                                                                            }
+
+                                                                            .hero h2 span{
+                                                                              display:block;
+                                                                              }
+
+                                                                              .hero p{
+                                                                                font-size:24px;
+                                                                                  line-height:1.8;
+                                                                                    opacity:0.95;
+                                                                                    }
+
+                                                                                    .hero-buttons{
+                                                                                      margin-top:40px;
+                                                                                        display:flex;
+                                                                                          gap:20px;
+                                                                                            justify-content:center;
+                                                                                              flex-wrap:wrap;
+                                                                                              }
+
+                                                                                              .btn-primary,
+                                                                                              .btn-secondary{
+                                                                                                text-decoration:none;
+                                                                                                  padding:18px 35px;
+                                                                                                    border-radius:50px;
+                                                                                                      font-weight:600;
+                                                                                                        transition:0.3s;
+                                                                                                        }
+
+                                                                                                        .btn-primary{
+                                                                                                          background:white;
+                                                                                                            color:#0284c7;
+                                                                                                            }
+
+                                                                                                            .btn-primary:hover{
+                                                                                                              transform:translateY(-4px);
+                                                                                                              }
+
+                                                                                                              .btn-secondary{
+                                                                                                                border:2px solid white;
+                                                                                                                  color:white;
+                                                                                                                  }
+
+                                                                                                                  .btn-secondary:hover{
+                                                                                                                    background:white;
+                                                                                                                      color:#0284c7;
+                                                                                                                      }
+
+                                                                                                                      /* PROFISSIONAIS */
+
+                                                                                                                      .profissionais{
+                                                                                                                        padding:100px 8%;
+                                                                                                                        }
+
+                                                                                                                        .titulo{
+                                                                                                                          text-align:center;
+                                                                                                                            margin-bottom:60px;
+                                                                                                                            }
+
+                                                                                                                            .titulo h3{
+                                                                                                                              font-size:42px;
+                                                                                                                                margin-bottom:10px;
+                                                                                                                                }
+
+                                                                                                                                .titulo p{
+                                                                                                                                  color:#71717a;
+                                                                                                                                  }
+
+                                                                                                                                  .cards{
+                                                                                                                                    display:grid;
+                                                                                                                                      grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+                                                                                                                                        gap:35px;
+                                                                                                                                        }
+
+                                                                                                                                        .card{
+                                                                                                                                          background:white;
+                                                                                                                                            border-radius:30px;
+                                                                                                                                              padding:45px 30px;
+                                                                                                                                                text-align:center;
+                                                                                                                                                  box-shadow:0 10px 30px rgba(0,0,0,0.08);
+                                                                                                                                                    transition:0.3s;
+                                                                                                                                                    }
+
+                                                                                                                                                    .card:hover{
+                                                                                                                                                      transform:translateY(-10px);
+                                                                                                                                                      }
+
+                                                                                                                                                      .icone{
+                                                                                                                                                        font-size:65px;
+                                                                                                                                                          margin-bottom:20px;
+                                                                                                                                                          }
+
+                                                                                                                                                          .card h4{
+                                                                                                                                                            font-size:34px;
+                                                                                                                                                              color:#0284c7;
+                                                                                                                                                                margin-bottom:15px;
+                                                                                                                                                                }
+
+                                                                                                                                                                .info{
+                                                                                                                                                                  margin-bottom:20px;
+                                                                                                                                                                    color:#52525b;
+                                                                                                                                                                    }
+
+                                                                                                                                                                    .info p{
+                                                                                                                                                                      margin:5px 0;
+                                                                                                                                                                      }
+
+                                                                                                                                                                      .card span{
+                                                                                                                                                                        display:block;
+                                                                                                                                                                          font-size:22px;
+                                                                                                                                                                            margin-bottom:30px;
+                                                                                                                                                                            }
+
+                                                                                                                                                                            .btn-card{
+                                                                                                                                                                              display:inline-block;
+                                                                                                                                                                                text-decoration:none;
+                                                                                                                                                                                  background:linear-gradient(90deg,#0ea5e9,#0284c7);
+                                                                                                                                                                                    color:white;
+                                                                                                                                                                                      padding:16px 35px;
+                                                                                                                                                                                        border-radius:50px;
+                                                                                                                                                                                          font-weight:600;
+                                                                                                                                                                                            transition:0.3s;
+                                                                                                                                                                                            }
+
+                                                                                                                                                                                            .btn-card:hover{
+                                                                                                                                                                                              transform:scale(1.05);
+                                                                                                                                                                                              }
+
+                                                                                                                                                                                              /* BENEFÍCIOS */
+
+                                                                                                                                                                                              .beneficios{
+                                                                                                                                                                                                padding:40px 8% 100px;
+                                                                                                                                                                                                  display:grid;
+                                                                                                                                                                                                    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+                                                                                                                                                                                                      gap:25px;
+                                                                                                                                                                                                      }
+
+                                                                                                                                                                                                      .beneficio{
+                                                                                                                                                                                                        background:white;
+                                                                                                                                                                                                          padding:35px;
+                                                                                                                                                                                                            border-radius:25px;
+                                                                                                                                                                                                              text-align:center;
+                                                                                                                                                                                                                box-shadow:0 10px 25px rgba(0,0,0,0.05);
+                                                                                                                                                                                                                }
+
+                                                                                                                                                                                                                .beneficio h5{
+                                                                                                                                                                                                                  font-size:24px;
+                                                                                                                                                                                                                    margin-bottom:10px;
+                                                                                                                                                                                                                      color:#0284c7;
+                                                                                                                                                                                                                      }
+
+                                                                                                                                                                                                                      /* FOOTER */
+
+                                                                                                                                                                                                                      footer{
+                                                                                                                                                                                                                        background:#18181b;
+                                                                                                                                                                                                                          color:white;
+                                                                                                                                                                                                                            text-align:center;
+                                                                                                                                                                                                                              padding:45px 20px;
+                                                                                                                                                                                                                              }
+
+                                                                                                                                                                                                                              footer h4{
+                                                                                                                                                                                                                                font-size:28px;
+                                                                                                                                                                                                                                  margin-bottom:15px;
+                                                                                                                                                                                                                                  }
+
+                                                                                                                                                                                                                                  footer p{
+                                                                                                                                                                                                                                    margin-bottom:10px;
+                                                                                                                                                                                                                                      opacity:0.8;
+                                                                                                                                                                                                                                      }
+
+                                                                                                                                                                                                                                      footer a{
+                                                                                                                                                                                                                                        color:#38bdf8;
+                                                                                                                                                                                                                                          text-decoration:none;
+                                                                                                                                                                                                                                          }
+
+                                                                                                                                                                                                                                          /* RESPONSIVO */
+
+                                                                                                                                                                                                                                          @media(max-width:768px){
+
+                                                                                                                                                                                                                                            .hero h2{
+                                                                                                                                                                                                                                                font-size:42px;
+                                                                                                                                                                                                                                                  }
+
+                                                                                                                                                                                                                                                    .hero p{
+                                                                                                                                                                                                                                                        font-size:20px;
+                                                                                                                                                                                                                                                          }
+
+                                                                                                                                                                                                                                                            header{
+                                                                                                                                                                                                                                                                flex-direction:column;
+                                                                                                                                                                                                                                                                    gap:20px;
+                                                                                                                                                                                                                                                                        text-align:center;
+                                                                                                                                                                                                                                                                          }
+
+                                                                                                                                                                                                                                                                          }
